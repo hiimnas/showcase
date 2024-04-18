@@ -1,0 +1,72 @@
+:root {
+  --red: #dc143c;
+  --blue: #4da6ff;
+  --green: #88cb86;
+}
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth !important;
+}
+
+body {
+  background-color: #0c0c1d;
+  color: var(--bs-light);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  height: 99vh;
+  scroll-snap-align: center;
+  padding: 66px calc(6vw + 42px) 2rem !important;
+  margin: 0 !important;
+  min-width: 100% !important;
+}
+
+.btn {
+  border: none;
+  font-weight: 500;
+  font-size: large;
+  text-wrap: nowrap;
+  min-width: fit-content;
+}
+
+.btn-primary {
+  background-color: var(--blue);
+
+}
+
+.btn-danger {
+  background-color: var(--red);
+
+}
+
+.btn-success {
+  background-color: var(--green);
+  color: var(--bs-dark);
+}
+
+.next-btn {
+  background: none;
+  border: none;
+  height: fit-content;
+  width: fit-content;
+  color: var(--red);
+  font-size: xx-large;
+  margin: 6px auto;
+}
+
+.modal {
+  color: var(--bs-dark);
+}
